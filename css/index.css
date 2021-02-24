@@ -1,0 +1,228 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar{
+    background-color: rgb(53 50 50);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height: 117px;
+    transition: all 0.5s ease-out;
+}
+
+.logo{
+    position: absolute;
+    filter:invert(1);
+    transform: scale(2);
+    margin: 20px;
+    cursor: pointer;
+}
+
+.h-nav{
+    height: 57px;
+}
+
+.v-nav{
+    visibility: hidden;
+    opacity: 0;
+}
+#Hamburger{
+    padding: 15px 25px;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 4px;
+}
+
+.line{
+    width: 29px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+} 
+
+.search{
+    display: flex;
+    justify-content: center;
+    padding-top: 67px;
+    transition: all 170ms linear;
+}
+
+input{
+    width: 260px;
+    padding-left: 26px;
+    outline: none;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.searchbox{
+    position: relative;
+    left: 30px;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+
+/* Current weather */
+#current{
+    background: url(/bg-images/sunny.jpg) no-repeat center center/cover;
+    height: 365px;
+    overflow: hidden;
+}
+
+.h-class{
+    text-align: center;
+    margin: 10px auto;
+    background-color: rgba(255, 245, 220,0.5);
+    width: 350px;
+    height: 45px;
+    font-size: 29px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+#currentWeather{
+    width: 350px;
+    margin: 0px auto;
+    background-color: rgba(255, 245, 220,0.5);
+    margin-top: 24px;
+    border-radius: 35px;
+}
+
+.location{
+    padding: 10px;
+}
+
+.city{
+    text-align: center;
+}
+
+.date{
+    text-align: center;
+}
+
+.time{
+    text-align: center;
+}
+
+.temparature{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 3px rgba(0,0,0,0.3);
+}
+
+.wind{
+    text-align: center;
+}
+
+.feel{
+    text-align: center;
+}
+
+.humidity{
+    text-align: center;
+}
+
+.pressure{
+    text-align: center;
+}
+
+.weather{
+    text-align: center;
+}
+
+.weathericon{
+    display: block;
+    margin: 0px auto;
+    height: 59px;
+}
+
+#weatherforcast{
+    background: url("../bg-images/report1.jpg") no-repeat center center/cover;
+    height: 331px;
+    overflow: hidden;
+    padding-bottom: 7px;
+}
+
+.h-second{
+    text-align: center;
+    margin: 2px auto;
+    background-color: rgba(0, 0, 0,0.6);
+    width: 350px;
+    height: 45px;
+    font-size: 29px;
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+}
+
+#forecast{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 6px;
+}
+
+.day{
+    background-color: rgba(0, 0, 0,0.6);
+    color: white;
+    margin: 0px 0px;
+    border-radius: 40px;
+    padding: 0px 30px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+
+
+h3{
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.rise-set{
+    text-align: center;
+}
+
+.day-night{
+    text-align: center;
+}
+
+.max-min{
+    text-align: center;
+}
+
+.humidity1{
+    text-align: center;
+}
+
+.wind1{
+    text-align: center;
+}
+
+.weather1{
+    text-align: center;
+}
+
+.weathericon1{
+    display: block;
+    margin: 0px auto;
+    height: 59px;
+}
+
+/* responsive design */
+
