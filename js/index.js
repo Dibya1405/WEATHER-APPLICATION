@@ -3,7 +3,11 @@
 const successcallback=(position)=>{
     console.log(position);
     weatherforcast.style.height="auto";
-    fetch(`${currentweatherapi.url}lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${currentweatherapi.key}&units=metric`)
+    let latt=position.coords.latitude;
+    let long=position.coords.longitude;
+    let finallat=(Math.round(latt * 100) / 100).toFixed(2);
+    let finallon=(Math.round(long * 100) / 100).toFixed(2);
+    fetch(`${currentweatherapi.url}lat=${finallat}&lon=${finallon}&appid=${currentweatherapi.key}&units=metric`)
     .then(weather=>{
         return weather.json();
     }).then(showWeatherData);
