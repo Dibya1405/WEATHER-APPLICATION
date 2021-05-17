@@ -88,25 +88,25 @@ function showWeatherData(weather) {
 
     //showing proper background
     if (weathertype.textContent == "Clear") {
-        current.style.background="url(../bg-images/clear.jpg) no-repeat center center/cover";
+        current.style.background="url('../bg-images/clear.jpg') no-repeat center center/cover";
     } else if (weathertype.textContent == "Clouds") {
-        current.style.background="url(../bg-images/clouds1.jpg) no-repeat center center/cover";
+        current.style.background="url('../bg-images/clouds1.jpg') no-repeat center center/cover";
     } else if (weathertype.textContent == "Haze") {
-        current.style.background="url(../bg-images/haze.jpg) no-repeat center center/cover";
+        current.style.background="url('../bg-images/haze.jpg') no-repeat center center/cover";
     } else if (weathertype.textContent == "Mist") {
-        current.style.background="url(../bg-images/mist.jpg) no-repeat center center/cover";
+        current.style.background="url('../bg-images/mist.jpg') no-repeat center center/cover";
     } else if (weathertype.textContent == "Rain") {
-        current.style.background="url(../bg-images/rain.jpg) no-repeat center center/cover";
+        current.style.background="url('../bg-images/rain.jpg') no-repeat center center/cover";
     } else if (weathertype.textContent == "Smoke") {
-        current.style.background="url(../bg-images/smoke.jpg) no-repeat center center/cover";
+        current.style.background="url('../bg-images/smoke.jpg') no-repeat center center/cover";
     } else if (weathertype.textContent == "Snow") {
-        current.style.background="url(../bg-images/snowfall.jpg) no-repeat center center/cover";
+        current.style.background="url('../bg-images/snowfall.jpg') no-repeat center center/cover";
     } else if (weathertype.textContent == "Fog") {
-        current.style.background="url(../bg-images/mist.jpg) no-repeat center center/cover";
+        current.style.background="url('../bg-images/mist.jpg') no-repeat center center/cover";
     } else if (weathertype.textContent == "Thunderstorm") {
-        current.style.background="url(../bg-images/thunderstorm.jpg) no-repeat center center/cover";
+        current.style.background="url('../bg-images/thunderstorm.jpg') no-repeat center center/cover";
     } else {
-        current.style.background="url(../bg-images/clear.jpg) no-repeat center center/cover";
+        current.style.background="url('../bg-images/clear.jpg') no-repeat center center/cover";
     }
 }
 
