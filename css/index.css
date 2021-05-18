@@ -404,3 +404,63 @@ h3 {
         line-height: 30px;
     }
 }
+
+@media only screen and (min-width: 1900px){
+    .h-class {
+        text-align: center;
+        margin: 48px auto;
+        background-color: rgba(255, 245, 220,0.5);
+        width: 372px;
+        height: 60px;
+        font-size: 35px;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 35px;
+    }
+
+    #currentWeather {
+        width: 380px;
+        margin: 0px auto;
+        background-color: rgba(255, 245, 220,0.5);
+        margin-top: 24px;
+        border-radius: 35px;
+        font-size: 22.5px;
+    }
+
+    .temparature {
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+        text-shadow: 2px 3px rgb(0 0 0 / 30%);
+    }
+
+    #current {
+        background: url(../bg-images/sunny.jpg) no-repeat center center/cover;
+        height: 530px;
+        overflow: hidden;
+    }
+
+    .h-second {
+        text-align: center;
+        margin: 10px auto;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 370px;
+        height: 75px;
+        font-size: 32.5px;
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .day {
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        margin: 0px 0px;
+        border-radius: 40px;
+        padding: 0px 30px;
+        margin-bottom: 10px;
+        margin-top: 6px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
