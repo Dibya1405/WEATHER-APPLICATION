@@ -158,14 +158,14 @@ input{
     padding-bottom: 7px;
 }
 
-.h-second{
+.h-second {
     text-align: center;
-    margin: 2px auto;
+    margin: 10px auto;
     background-color: rgba(0, 0, 0,0.6);
     width: 350px;
-    height: 45px;
-    font-size: 29px;
-    padding: 6px;
+    height: 50px;
+    font-size: 28px;
+    padding: 8px;
     border-radius: 10px;
     color: white;
 }
@@ -188,10 +188,11 @@ input{
 }
 
 
-h3{
+h3 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     text-decoration: underline;
+    margin-top: 10px;
 }
 
 .rise-set{
@@ -225,4 +226,121 @@ h3{
 }
 
 /* responsive design */
+@media only screen and (max-width: 395px){
+    #currentWeather {
+        width: 327px;
+        margin: 0px auto;
+        background-color: rgba(255, 245, 220,0.5);
+        margin-top: 24px;
+        border-radius: 35px;
+    }
 
+    .h-class {
+        text-align: center;
+        margin: 10px auto;
+        background-color: rgba(255, 245, 220,0.5);
+        width: 332px;
+        height: 45px;
+        font-size: 29px;
+        padding: 6px;
+        border-radius: 10px;
+    }
+
+    .h-second {
+        text-align: center;
+        margin: 10px auto;
+        background-color: rgba(0, 0, 0,0.6);
+        width: 330px;
+        height: 45px;
+        font-size: 27px;
+        padding: 6px;
+        border-radius: 10px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .h-class {
+        text-align: center;
+        margin: 10px auto;
+        background-color: rgba(255, 245, 220,0.5);
+        width: 300px;
+        height: 45px;
+        font-size: 27px;
+        padding: 6px;
+        border-radius: 10px;
+    }
+
+    #currentWeather {
+        width: 292px;
+        margin: 0px auto;
+        background-color: rgba(255, 245, 220,0.5);
+        margin-top: 24px;
+        border-radius: 35px;
+    }
+
+    .h-second {
+        text-align: center;
+        margin: 10px auto;
+        background-color: rgba(0, 0, 0,0.6);
+        width: 302px;
+        height: 45px;
+        font-size: 26px;
+        padding: 6px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .day {
+        background-color: rgba(0, 0, 0,0.6);
+        color: white;
+        margin: 0px 0px;
+        border-radius: 40px;
+        padding: 0px 20px;
+        margin-bottom: 10px;
+        margin-top: 6px;
+    }
+}
+
+@media only screen and (max-width: 312px){
+    .h-class {
+        text-align: center;
+        margin: 10px auto;
+        background-color: rgba(255, 245, 220,0.5);
+        width: 265px;
+        height: 45px;
+        font-size: 25px;
+        padding: 6px;
+        border-radius: 10px;
+    }
+
+    #currentWeather {
+        width: 255px;
+        margin: 0px auto;
+        background-color: rgba(255, 245, 220,0.5);
+        margin-top: 24px;
+        border-radius: 35px;
+    }
+
+    .h-second {
+        text-align: center;
+        margin: 2px auto;
+        background-color: rgba(0, 0, 0,0.6);
+        width: 262px;
+        height: 45px;
+        font-size: 22px;
+        padding: 6px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .day {
+        background-color: rgba(0, 0, 0,0.6);
+        color: white;
+        margin: 0px 0px;
+        border-radius: 40px;
+        padding: 0px 10px;
+        margin-bottom: 10px;
+        margin-top: 6px;
+    }
+}
