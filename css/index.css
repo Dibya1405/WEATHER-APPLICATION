@@ -161,7 +161,7 @@ input{
 .h-second {
     text-align: center;
     margin: 10px auto;
-    background-color: rgba(0, 0, 0,0.6);
+    background-color: rgba(0, 0, 0, 0.9);
     width: 350px;
     height: 50px;
     font-size: 28px;
@@ -178,7 +178,7 @@ input{
 }
 
 .day{
-    background-color: rgba(0, 0, 0,0.6);
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
     margin: 0px 0px;
     border-radius: 40px;
@@ -249,7 +249,7 @@ h3 {
     .h-second {
         text-align: center;
         margin: 10px auto;
-        background-color: rgba(0, 0, 0,0.6);
+        background-color: rgba(0, 0, 0, 0.9);
         width: 330px;
         height: 45px;
         font-size: 27px;
@@ -282,7 +282,7 @@ h3 {
     .h-second {
         text-align: center;
         margin: 10px auto;
-        background-color: rgba(0, 0, 0,0.6);
+        background-color: rgba(0, 0, 0, 0.9);
         width: 302px;
         height: 45px;
         font-size: 26px;
@@ -292,7 +292,7 @@ h3 {
     }
 
     .day {
-        background-color: rgba(0, 0, 0,0.6);
+        background-color: rgba(0, 0, 0, 0.9);
         color: white;
         margin: 0px 0px;
         border-radius: 40px;
@@ -310,7 +310,7 @@ h3 {
         width: 265px;
         height: 45px;
         font-size: 25px;
-        padding: 6px;
+        padding: 7px;
         border-radius: 10px;
     }
 
@@ -325,7 +325,7 @@ h3 {
     .h-second {
         text-align: center;
         margin: 2px auto;
-        background-color: rgba(0, 0, 0,0.6);
+        background-color: rgba(0, 0, 0, 0.9);
         width: 262px;
         height: 45px;
         font-size: 22px;
@@ -335,12 +335,72 @@ h3 {
     }
 
     .day {
-        background-color: rgba(0, 0, 0,0.6);
+        background-color: rgba(0, 0, 0, 0.9);
         color: white;
         margin: 0px 0px;
         border-radius: 40px;
         padding: 0px 10px;
         margin-bottom: 10px;
-        margin-top: 6px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 1320px){
+    #current {
+        background: url(../bg-images/sunny.jpg) no-repeat center center/cover;
+        height: 463px;
+        overflow: hidden;
+    }
+
+    .h-class {
+        text-align: center;
+        margin: 10px auto;
+        background-color: rgba(255, 245, 220,0.5);
+        width: 350px;
+        height: 50px;
+        font-size: 32px;
+        padding: 6px;
+        border-radius: 10px;
+        margin-top: 24px;
+    }
+
+    #currentWeather {
+        width: 350px;
+        margin: 0px auto;
+        background-color: rgba(255, 245, 220,0.5);
+        margin-top: 24px;
+        border-radius: 35px;
+        font-size: 22px;
+    }
+
+    .temparature {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        text-shadow: 2px 3px rgb(0 0 0 / 30%);
+    }
+
+    .h-second {
+        text-align: center;
+        margin: 12px auto;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 358px;
+        height: 65px;
+        font-size: 32px;
+        padding: 15px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .day {
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        margin: 0px 0px;
+        border-radius: 40px;
+        padding: 0px 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 22px;
+        line-height: 30px;
     }
 }
